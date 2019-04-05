@@ -1,5 +1,5 @@
 default:
-	g++ -o main main.cpp Maze.cpp
+	g++ -std=c++11 -o main main.cpp Maze.cpp
 
 run: default
 	./main -p
